@@ -3,13 +3,10 @@ package vn.edu.usth.usthweather;
 import android.os.Bundle;
 import android.util.Log;
 
-import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.graphics.Insets;
-import androidx.core.view.ViewCompat;
-import androidx.core.view.WindowInsetsCompat;
-
-import java.io.FileReader;
+import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentPagerAdapter;
+import androidx.viewpager.widget.ViewPager;
 
 public class WeatherActivity extends AppCompatActivity {
 
@@ -18,12 +15,32 @@ public class WeatherActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        if (savedInstanceState == null) {
-            getSupportFragmentManager().beginTransaction()
-                    .replace(R.id.weather_container, new WeatherFragment())
-                    .replace(R.id.forecast_container, new ForecastFragment())
-                    .commit();
-        }
+        ViewPager viewPager = findViewById(R.id.viewPager);
+
+        FragmentPagerAdapter adapter = new FragmentPagerAdapter(
+                getSupportFragmentManager(),
+                FragmentPagerAdapter.BEHAVIOR_RESUME_ONLY_CURRENT_FRAGMENT
+        ) {
+
+            @Override
+            public Fragment getItem(int position) {
+                // Return a new WeatherAndForecastFragment instance
+                return new WeatherAndForecastFragment();
+            }
+
+            @Override
+            public int getCount() {
+                return 3; // 3 pages
+            }
+
+            @Override
+            public CharSequence getPageTitle(int position) {
+                return "City " + (position + 1);
+            }
+        };
+
+        viewPager.setAdapter(adapter);
+
         Log.i("data", "onCreate called.");
     }
 
