@@ -9,6 +9,8 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
+import java.io.FileReader;
+
 public class WeatherActivity extends AppCompatActivity {
 
     @Override
@@ -22,6 +24,8 @@ public class WeatherActivity extends AppCompatActivity {
             return insets;
         });
         Log.i("data", "onCreate called.");
+        ForecastFragment forecastFragment = new ForecastFragment();
+        getSupportFragmentManager().beginTransaction().add(R.id.main, forecastFragment).commit();
     }
 
     @Override
