@@ -23,6 +23,7 @@ dimen forecast_row_vertical_padding
 dimen forecast_temperature_text_size
 dimen forecast_weather_icon_size
 drawable cloudy
+drawable frame
 drawable haily
 drawable ic_launcher_background
 drawable ic_launcher_foreground

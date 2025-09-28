@@ -80,6 +80,7 @@ public class WeatherFragment extends Fragment {
         relativeLayout.addView(tempCondition);
         relativeLayout.addView(cityView);
         relativeLayout.addView(iconView);
+        relativeLayout.setBackgroundResource(R.drawable.frame);
 
         return relativeLayout;
     }

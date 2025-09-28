@@ -41,7 +41,7 @@
     <string name="weather_snowy">Snowy</string>
     <string name="weather_sunny">Sunny</string>
     <string name="weather_windy">Windy</string>
-    <style name="Base.Theme.USTHWeather" parent="Theme.Material3.DayNight.NoActionBar">
+    <style name="Base.Theme.USTHWeather" parent="Theme.AppCompat.Light.NoActionBar">
         
         
     </style>
