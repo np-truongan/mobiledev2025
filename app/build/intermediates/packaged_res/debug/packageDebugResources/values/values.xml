@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="days_of_week">
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+        <item>Sunday</item>
+    </string-array>
+    <color name="city_text_color">@android:color/black</color>
+    <color name="day_text_color">@color/forecast_text_primary</color>
+    <color name="description_text_color">@color/forecast_text_primary</color>
+    <color name="forecast_background">@color/semi_transparent_blue</color>
+    <color name="forecast_text_primary">@android:color/black</color>
+    <color name="forecast_text_secondary">@android:color/darker_gray</color>
+    <color name="primary_blue">#0000FF</color>
+    <color name="semi_transparent_blue">#200000FF</color>
+    <color name="temperature_text_color">@color/forecast_text_secondary</color>
+    <color name="weather_background">#2000FF00</color>
+    <color name="weather_text_color">@android:color/black</color>
+    <dimen name="forecast_day_text_size">16sp</dimen>
+    <item format="float" name="forecast_day_weight" type="dimen">1.0</item>
+    <dimen name="forecast_description_text_size">15sp</dimen>
+    <item format="float" name="forecast_description_weight" type="dimen">2.0</item>
+    <dimen name="forecast_icon_margin_end">32dp</dimen>
+    <dimen name="forecast_layout_margin">16dp</dimen>
+    <dimen name="forecast_layout_padding">16dp</dimen>
+    <dimen name="forecast_row_vertical_padding">24dp</dimen>
+    <dimen name="forecast_temperature_text_size">14sp</dimen>
+    <dimen name="forecast_weather_icon_size">80dp</dimen>
+    <string name="app_name">USTH Weather</string>
+    <string name="city_hanoi">Hanoi</string>
+    <string name="city_paris" translatable="false">Paris</string>
+    <string name="city_tokyo" translatable="false">Tokyo</string>
+    <string name="weather_cloudy">Cloudy</string>
+    <string name="weather_haily">Hailstorm</string>
+    <string name="weather_lightening">Scattered Thunderstorms</string>
+    <string name="weather_rainy">Rainy</string>
+    <string name="weather_snowy">Snowy</string>
+    <string name="weather_sunny">Sunny</string>
+    <string name="weather_windy">Windy</string>
+    <style name="Base.Theme.USTHWeather" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        
+    </style>
+    <style name="Theme.USTHWeather" parent="Base.Theme.USTHWeather"/>
+</resources>

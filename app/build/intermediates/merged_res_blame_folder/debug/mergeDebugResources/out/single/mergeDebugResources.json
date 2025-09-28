@@ -1,0 +1,114 @@
+[
+    {
+        "merged": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.13\\vn.edu.usth.usthweather.app-debug-34:\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.13\\vn.edu.usth.usthweather.app-pngs-30:\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.13\\vn.edu.usth.usthweather.app-debug-34:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.13\\vn.edu.usth.usthweather.app-main-36:\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.13\\vn.edu.usth.usthweather.app-debug-34:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.13\\vn.edu.usth.usthweather.app-main-36:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.13\\vn.edu.usth.usthweather.app-debug-34:\\layout_fragment_weather_and_forecast.xml.flat",
+        "source": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.13\\vn.edu.usth.usthweather.app-main-36:\\layout\\fragment_weather_and_forecast.xml"
+    },
+    {
+        "merged": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.13\\vn.edu.usth.usthweather.app-debug-34:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.13\\vn.edu.usth.usthweather.app-main-36:\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.13\\vn.edu.usth.usthweather.app-debug-34:\\drawable_cloudy.png.flat",
+        "source": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.13\\vn.edu.usth.usthweather.app-main-36:\\drawable\\cloudy.png"
+    },
+    {
+        "merged": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.13\\vn.edu.usth.usthweather.app-debug-34:\\layout_fragment_weather.xml.flat",
+        "source": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.13\\vn.edu.usth.usthweather.app-main-36:\\layout\\fragment_weather.xml"
+    },
+    {
+        "merged": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.13\\vn.edu.usth.usthweather.app-debug-34:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.13\\vn.edu.usth.usthweather.app-main-36:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.13\\vn.edu.usth.usthweather.app-debug-34:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.13\\vn.edu.usth.usthweather.app-main-36:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "vn.edu.usth.usthweather.app-debug-34:/layout_activity_main.xml.flat",
+        "source": "vn.edu.usth.usthweather.app-main-36:/layout/activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.13\\vn.edu.usth.usthweather.app-debug-34:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.13\\vn.edu.usth.usthweather.app-main-36:\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.13\\vn.edu.usth.usthweather.app-debug-34:\\drawable_rainy.png.flat",
+        "source": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.13\\vn.edu.usth.usthweather.app-main-36:\\drawable\\rainy.png"
+    },
+    {
+        "merged": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.13\\vn.edu.usth.usthweather.app-debug-34:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.13\\vn.edu.usth.usthweather.app-main-36:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.13\\vn.edu.usth.usthweather.app-debug-34:\\drawable_snowy.png.flat",
+        "source": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.13\\vn.edu.usth.usthweather.app-main-36:\\drawable\\snowy.png"
+    },
+    {
+        "merged": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.13\\vn.edu.usth.usthweather.app-debug-34:\\drawable_lightening.png.flat",
+        "source": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.13\\vn.edu.usth.usthweather.app-main-36:\\drawable\\lightening.png"
+    },
+    {
+        "merged": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.13\\vn.edu.usth.usthweather.app-debug-34:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.13\\vn.edu.usth.usthweather.app-main-36:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.13\\vn.edu.usth.usthweather.app-debug-34:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.13\\vn.edu.usth.usthweather.app-main-36:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.13\\vn.edu.usth.usthweather.app-debug-34:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.13\\vn.edu.usth.usthweather.app-main-36:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.13\\vn.edu.usth.usthweather.app-debug-34:\\drawable_windy.png.flat",
+        "source": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.13\\vn.edu.usth.usthweather.app-main-36:\\drawable\\windy.png"
+    },
+    {
+        "merged": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.13\\vn.edu.usth.usthweather.app-debug-34:\\layout_fragment_forecast.xml.flat",
+        "source": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.13\\vn.edu.usth.usthweather.app-main-36:\\layout\\fragment_forecast.xml"
+    },
+    {
+        "merged": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.13\\vn.edu.usth.usthweather.app-debug-34:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.13\\vn.edu.usth.usthweather.app-main-36:\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.13\\vn.edu.usth.usthweather.app-debug-34:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.13\\vn.edu.usth.usthweather.app-main-36:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.13\\vn.edu.usth.usthweather.app-debug-34:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.13\\vn.edu.usth.usthweather.app-main-36:\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.13\\vn.edu.usth.usthweather.app-debug-34:\\drawable_haily.png.flat",
+        "source": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.13\\vn.edu.usth.usthweather.app-main-36:\\drawable\\haily.png"
+    },
+    {
+        "merged": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.13\\vn.edu.usth.usthweather.app-debug-34:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.13\\vn.edu.usth.usthweather.app-main-36:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.13\\vn.edu.usth.usthweather.app-debug-34:\\drawable_sunny.png.flat",
+        "source": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.13\\vn.edu.usth.usthweather.app-main-36:\\drawable\\sunny.png"
+    },
+    {
+        "merged": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.13\\vn.edu.usth.usthweather.app-debug-34:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.13\\vn.edu.usth.usthweather.app-main-36:\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.13\\vn.edu.usth.usthweather.app-debug-34:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.13\\vn.edu.usth.usthweather.app-main-36:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    }
+]
