@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Margins and Padding -->
+    <dimen name="forecast_layout_margin">16dp</dimen>
+    <dimen name="forecast_layout_padding">16dp</dimen>
+    <dimen name="forecast_row_vertical_padding">24dp</dimen>
+    <dimen name="forecast_icon_margin_end">32dp</dimen>
+
+    <!-- Icon Dimensions -->
+    <dimen name="forecast_weather_icon_size">80dp</dimen>
+
+    <!-- Text Sizes -->
+    <dimen name="forecast_day_text_size">16sp</dimen>
+    <dimen name="forecast_description_text_size">15sp</dimen>
+    <dimen name="forecast_temperature_text_size">14sp</dimen>
+
+    <!-- Layout Weights (as dimensions for consistency) -->
+    <item name="forecast_day_weight" type="dimen" format="float">1.0</item>
+    <item name="forecast_description_weight" type="dimen" format="float">2.0</item>
+</resources>

@@ -1,5 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>
+    <!-- App Colors -->
+    <color name="primary_blue">#0000FF</color>
+    <color name="semi_transparent_blue">#200000FF</color>
+
+    <!-- Text Colors -->
+    <color name="forecast_text_primary">@android:color/black</color>
+    <color name="forecast_text_secondary">@android:color/darker_gray</color>
+
+    <!-- Background Colors -->
+    <color name="forecast_background">@color/semi_transparent_blue</color>
+    <color name="weather_background">#2000FF00</color>
+
+    <!-- Alternative naming for semantic meaning -->
+    <color name="day_text_color">@color/forecast_text_primary</color>
+    <color name="description_text_color">@color/forecast_text_primary</color>
+    <color name="temperature_text_color">@color/forecast_text_secondary</color>
+
+    <!-- Weather Fragment Colors -->
+    <color name="weather_text_color">@android:color/black</color>
+    <color name="city_text_color">@android:color/black</color>
 </resources>

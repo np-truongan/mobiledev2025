@@ -12,18 +12,21 @@ import com.google.android.material.tabs.TabLayout;
 
 public class WeatherActivity extends AppCompatActivity {
 
-    public static final String ARG_CITY_NAME = "city_name"; // 🔑 Consistent key
+    public static final String ARG_CITY_NAME = "city_name"; // Consistent key
+    private static final String TAG = "WeatherActivity";
+
+    private String[] cities;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        // Initialize cities array using string resources
+        initializeCities();
+
         ViewPager viewPager = findViewById(R.id.viewPager);
         TabLayout tabLayout = findViewById(R.id.tabLayout);
-
-        // Define your cities here (tabs = cities)
-        final String[] cities = {"Hanoi", "Paris", "Tokyo"};
 
         FragmentStatePagerAdapter adapter = new FragmentStatePagerAdapter(
                 getSupportFragmentManager(),
@@ -53,35 +56,69 @@ public class WeatherActivity extends AppCompatActivity {
 
         viewPager.setAdapter(adapter);
         tabLayout.setupWithViewPager(viewPager);
+
+        Log.i(TAG, "Activity created with " + cities.length + " cities");
+    }
+
+    /**
+     * Initialize the cities array using string resources
+     * This ensures proper localization support and consistency with other components
+     */
+    private void initializeCities() {
+        cities = new String[]{
+                getString(R.string.city_hanoi),
+                getString(R.string.city_paris),
+                getString(R.string.city_tokyo)
+        };
+    }
+
+    /**
+     * Get the current cities array
+     * @return Array of city names
+     */
+    public String[] getCities() {
+        return cities.clone(); // Return a copy to prevent external modification
+    }
+
+    /**
+     * Get city name at specific position
+     * @param position The position index
+     * @return The city name at the given position, or null if invalid position
+     */
+    public String getCityAtPosition(int position) {
+        if (position >= 0 && position < cities.length) {
+            return cities[position];
+        }
+        return null;
     }
 
     @Override
     protected void onStart() {
         super.onStart();
-        Log.i("WeatherActivity", "onStart called.");
+        Log.i(TAG, "onStart called.");
     }
 
     @Override
     protected void onStop() {
         super.onStop();
-        Log.i("WeatherActivity", "onStop called.");
+        Log.i(TAG, "onStop called.");
     }
 
     @Override
     protected void onDestroy() {
         super.onDestroy();
-        Log.i("WeatherActivity", "onDestroy called.");
+        Log.i(TAG, "onDestroy called.");
     }
 
     @Override
     protected void onPause() {
         super.onPause();
-        Log.i("WeatherActivity", "onPause called.");
+        Log.i(TAG, "onPause called.");
     }
 
     @Override
     protected void onResume() {
         super.onResume();
-        Log.i("WeatherActivity", "onResume called.");
+        Log.i(TAG, "onResume called.");
     }
 }
